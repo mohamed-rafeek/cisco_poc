@@ -1,0 +1,12 @@
+---
+auth_url: /api/system/v1/auth/token
+dnac_device_url: /dna/intent/api/v1/network-device
+ap_config_get_url: /dna/intent/api/v1/wireless/accesspoint-configuration/summary?key=
+ap_config_update_url: /dna/intent/api/v1/wireless/accesspoint-configuration
+ap_reboot_url: /dna/intent/api/v1/device-reboot/apreboot
+
+device_fields: "id,family,type,macAddress,managementIpAddress"
+ap_selected_field: "instanceId,displayName,internalKey,macAddress,radioDTOs"
+device_filterfield: "hostname,macAddress"
+device_filter_string: "sw2,sw1|52:54:00:0e:1c:6a"
+display_selection: 1
